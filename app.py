@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-df = pd.read_csv('/project/drhorrible/vehicles_us.csv')
+df = pd.read_csv('/drhorrible/vehicles_us.csv')
 
 # Streamlit header
 st.header('Car Sales Data Visualization')
